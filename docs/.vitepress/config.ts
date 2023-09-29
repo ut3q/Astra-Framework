@@ -3,13 +3,20 @@ import { defineConfig } from 'vitepress';
 // refer https://vitepress.dev/reference/site-config for details
 export default defineConfig({
   lang: 'en-US',
-  title: 'VitePress',
-  description: 'Vite & Vue powered static site generator.',
+  title: 'Astra Framework',
+  description: 'The Ultimate Roblox Modular Framework.',
+  logo: 
 
   themeConfig: {
     nav: [
-      { text: 'API', link: '/API' },
-
+      {
+        text: 'API',
+        items: [
+          { text: 'Server', link: '/Server' },
+          { text: 'Client', link: '/Client' },
+          { text: 'Global', link: '/Global' },
+        ],
+      },
       // {
       //   text: 'Dropdown Menu',
       //   items: [
@@ -26,7 +33,14 @@ export default defineConfig({
       {
         // text: 'Guide',
         items: [
-          { text: 'API', link: '/API' },
+          {
+            text: 'API',
+            items: [
+              { text: 'Server', link: '/Server' },
+              { text: 'Client', link: '/Client' },
+              { text: 'Global', link: '/Global' },
+            ],
+          },
           // ...
         ],
       },
