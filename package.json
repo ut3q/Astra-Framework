@@ -9,5 +9,6 @@
   },
   "devDependencies": {
     "vitepress": "latest"
-  }
+  },
+  "homepage": "https://ut3q.github.io/Astra-Framework"
 }
