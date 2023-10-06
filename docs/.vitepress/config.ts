@@ -5,7 +5,7 @@ export default defineConfig({
   lang: 'en-US',
   title: 'Astra',
   description: 'The Ultimate Roblox Modular Framework.',
-  base: '/Astra-Framework',
+  base: '/Astra-Framework/',
   head: [
     ['link', { rel: "shortcut icon", href: "/images/icon.png"}],
   ],
