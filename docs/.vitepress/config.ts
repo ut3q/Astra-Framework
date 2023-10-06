@@ -5,6 +5,7 @@ export default defineConfig({
   lang: 'en-US',
   title: 'Astra',
   description: 'The Ultimate Roblox Modular Framework.',
+  base: '/Astra-Framework',
 
   themeConfig: {
     logo: '/images/logo.png',
