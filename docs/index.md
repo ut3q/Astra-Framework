@@ -5,6 +5,7 @@ hero:
   name: Astra
   text: The Ultimate Roblox Modular Framework.
   tagline: An optimized, performant, and structured luau framework.
+
   actions:
     - theme: brand
       text: Get Started
@@ -22,7 +23,4 @@ features:
   - icon: 🪶
     title: Lightweight
     details: Only the features you require with no added bloat.
-  - icon: 📁
-    title: Structured
-    details: Made to be consistent and organized.
 ---
