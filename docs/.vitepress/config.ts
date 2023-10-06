@@ -6,6 +6,9 @@ export default defineConfig({
   title: 'Astra',
   description: 'The Ultimate Roblox Modular Framework.',
   base: '/Astra-Framework',
+  head: [
+    ['link', { rel: "shortcut icon", href: "/images/icon.png"}],
+  ],
 
   themeConfig: {
     logo: '/images/logo.png',
