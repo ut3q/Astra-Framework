@@ -7,7 +7,14 @@ export default defineConfig({
   description: 'The Ultimate Roblox Modular Framework.',
   base: '/Astra-Framework/',
   head: [
-    ['link', { rel: "shortcut icon", href: "/images/icon.png"}],
+    ['link', { rel: 'icon', type: 'image/svg+xml', href: '/images/logo.png' }],
+    ['link', { rel: 'icon', type: 'image/png', href: '/images/logo.png' }],
+    ['meta', { name: 'theme-color', content: '#5f67ee' }],
+    ['meta', { name: 'og:type', content: 'website' }],
+    ['meta', { name: 'og:locale', content: 'en' }],
+    ['meta', { name: 'og:site_name', content: 'VitePress' }],
+    ['meta', { name: 'og:image', content: '/images/logo.png' }],
+    ['script', { src: 'https://cdn.usefathom.com/script.js', 'data-site': 'AZBRSFGG', 'data-spa': 'auto', defer: '' }]
   ],
 
   themeConfig: {
