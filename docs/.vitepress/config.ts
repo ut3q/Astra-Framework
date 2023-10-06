@@ -7,11 +7,11 @@ export default defineConfig({
   description: 'The Ultimate Roblox Modular Framework.',
   base: '/Astra-Framework/',
   head: [
-    ['link', { rel: 'icon', type: 'image/png', href: './images/icon.png' }],
+    ['link', { rel: 'icon', type: 'image/png', href: './icon.png' }],
   ],
 
   themeConfig: {
-    logo: { src: './images/icon.png', width: 24, height: 24 },
+    logo: { src: './icon.png', width: 24, height: 24 },
 
     search: {
       provider: 'local',
