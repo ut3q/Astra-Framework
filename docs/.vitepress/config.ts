@@ -9,7 +9,7 @@ export default defineConfig({
   head: [['link', { rel: 'icon', type: 'image/png', href: '/logo.png' }]],
 
   themeConfig: {
-    logo: { src: '/public/logo.png', width: 40, height: 40 },
+    logo: { src: '/logo.png', width: 24, height: 24 },
 
     search: {
       provider: 'local',
