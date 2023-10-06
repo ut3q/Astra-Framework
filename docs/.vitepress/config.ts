@@ -15,44 +15,44 @@ export default defineConfig({
 
     socialLinks: [{ icon: 'discord', link: 'https://discord.gg/vEeXeSxUMw' }],
 
-    nav: [
-      {
-        text: 'Tutorials',
-        items: [
-          { text: 'Installation', link: '/Installation' },
-          { text: 'Networking', link: '/Networking' },
-        ],
-      },
+    // nav: [
+    //   {
+    //     text: 'Tutorials',
+    //     items: [
+    //       { text: 'Installation', link: '/Installation' },
+    //       { text: 'Networking', link: '/Networking' },
+    //     ],
+    //   },
 
-      {
-        text: 'API',
-        items: [
-          { text: 'Framework', link: '/api/Framework/Client' },
-          { text: 'Packages', link: '/api/Packages/Console' },
-        ],
-      },
+    //   {
+    //     text: 'API',
+    //     items: [
+    //       { text: 'Framework', link: '/api/Framework/Client' },
+    //       { text: 'Packages', link: '/api/Packages/Console' },
+    //     ],
+    //   },
 
-      {
-        text: 'Articles',
-        items: [{ text: 'Blogs', link: '/Blogs' }],
-      },
+    //   {
+    //     text: 'Articles',
+    //     items: [{ text: 'Blogs', link: '/Blogs' }],
+    //   },
 
-      {
-        text: 'Updates',
-        link: '/Updates',
-      },
+    //   {
+    //     text: 'Updates',
+    //     link: '/Updates',
+    //   },
 
-      // {
-      //   text: 'Dropdown Menu',
-      //   items: [
-      //     { text: 'Item A', link: '/item-1' },
-      //     { text: 'Item B', link: '/item-2' },
-      //     { text: 'Item C', link: '/item-3' },
-      //   ],
-      // },
+    //   // {
+    //   //   text: 'Dropdown Menu',
+    //   //   items: [
+    //   //     { text: 'Item A', link: '/item-1' },
+    //   //     { text: 'Item B', link: '/item-2' },
+    //   //     { text: 'Item C', link: '/item-3' },
+    //   //   ],
+    //   // },
 
-      // ...
-    ],
+    //   // ...
+    // ],
 
     sidebar: {
       '/api/Framework': [
